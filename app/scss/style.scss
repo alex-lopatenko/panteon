@@ -1,0 +1,132 @@
+/* Переменные */
+@import "vars";
+
+@import "fonts";
+
+@import "reset";
+
+@import "global";
+
+@import "media";
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    background-image: url(../images/header-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+    &__top {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__top-list {
+        display: flex;
+        padding-top: 65px;
+        flex-wrap: nowrap;
+    }
+
+    &__top-item {
+        margin-top: 65px;
+    }
+
+    &__top-item+.header__top-item {
+        padding-left: 50px;
+    }
+
+    &__top-link {
+        color: #fff;
+        text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        transition: all .3s;
+        font-size: 16px;
+        font-family: 'Montserrat-SemiBold';
+        font-weight: 600;
+
+
+        &:hover {
+            color: #F7931E;
+        }
+    }
+
+    &__top-phone {
+        margin-top: 65px;
+        color: #fff;
+        font-family: 'Montserrat-SemiBold';
+        font-weight: 600;
+    }
+
+    &__info {
+        display: flex;
+        margin-top: 170px;
+        color: #FFF;
+    }
+
+    &__info-img {
+        padding-top: 130px;
+    }
+
+    &__info-inner {
+        text-align: center;
+        padding-left: 100px;
+    }
+
+    &__info-title {
+        text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        font-family: 'Montserrat-Bold';
+        font-size: 64px;
+        line-height: 68px;
+        padding-right: 200px;
+    }
+
+    &__info-subtitle {
+        margin-top: 35px;
+        font-family: 'Montserrat-Medium';
+        font-size: 28px;
+        padding-right: 200px;
+    }
+
+    &__info-link-inner {
+        margin-top: 35px;
+        padding-right: 200px;
+    }
+
+    &__info-link {
+        background-image: url(../images/fig-2.png);
+        background-repeat: no-repeat;
+        color: #FFF;
+        font-family: 'Montserrat-Bold';
+        font-size: 16px;
+        line-height: 20px;
+        padding: 20px 33px 28px 43px;
+    }
+
+    &__info-box {
+        margin-top: 289px;
+        margin-left: 200px;
+    }
+
+    &__info-box__link-wrapper {
+        padding-left: 270px;
+    }
+
+    &__info-box__social {
+        display: flex;
+        padding-left: 950px;
+    }
+
+    &__info-box__social-link+.header__info-box__social-link {
+        padding-left: 15px;
+    }
+
+
+
+
+
+
+
+
+}
